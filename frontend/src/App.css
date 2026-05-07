@@ -1,0 +1,117 @@
+/* App.css */
+body {
+  margin: 0;
+  background-color: #0f172a; /* Ciemne tło */
+  color: #f8fafc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+  color: #38bdf8;
+  text-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: 300;
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+/* Styl formularza */
+form {
+  background: #1e293b;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 350px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: white;
+  box-sizing: border-box;
+  transition: border 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+/* Przyciski główne */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(56, 189, 248, 0.4);
+}
+
+/* Przycisk przełączania (Sign up/Sign in) */
+.switch-auth-btn {
+  margin-top: 20px;
+  background: none;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.switch-auth-btn:hover {
+  color: #38bdf8;
+}
+
+/* Dokumentacja i Logout */
+hr {
+  width: 100%;
+  max-width: 600px;
+  border: 0;
+  border-top: 1px solid #334155;
+  margin: 50px 0;
+}
+
+.docs-toggle-btn {
+  background: #334155;
+  color: #f1f5f9;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
