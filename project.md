@@ -16,7 +16,7 @@ Prepare the Render deployment pipeline for the Python server.
 
 [ ] Environment Variables: Define secrets for DATABASE_URL, JWT_SECRET, and CORS_ORIGINS.
 
-🗄️ Phase 2: Data Modeling (PostgreSQL)
+🗄️ Phase 2: Data Modeling (Supabase)
 Define the core tables to manage the arena's ecosystem.
 
 [ ] User Table: Implement the users model to store player profiles, hashed credentials, and global ELO rankings (starting at 1000).  
